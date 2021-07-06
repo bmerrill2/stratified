@@ -39,7 +39,7 @@
             "production": {
                 "baseHref": "stratified",
                 "deployUrl": "http://eighty1designs.com/",
-      ],
+            },
               "budgets": [
                 {
                   "type": "initial",
