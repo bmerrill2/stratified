@@ -1,0 +1,23 @@
+<!-- Title group  -->
+<div class="title-group">
+  <h1 class="mat-h1">Content List</h1>
+  <mat-divider fxFlex="1 0"></mat-divider>
+</div>
+
+<!-- No data message -->
+<p *ngIf="ContentData.length <= 0" class="no-data">There is no data added yet!</p>
+
+<!-- Books list Angular material data table -->
+<div class="container" *ngIf="ContentData.length > 0">
+  <div class="mat-elevation-z8">
+    <ag-grid-angular
+    style="width: 100%; height: 600px;"
+    class="ag-theme-alpine"
+    [rowData]="ContentData"
+    [columnDefs]="displayedColumns"
+    pagination=true
+    paginationAutoPageSize=true
+>
+</ag-grid-angular>
+  </div>
+</div>

@@ -1,18 +1,48 @@
-import { NgModule } from '@angular/core';
+import { NgModule,  CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AngularMaterialModule } from './material.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AgGridModule } from 'ag-grid-angular';
+import { HttpClientModule } from '@angular/common/http';
+
+// Firebase
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { environment } from '../environments/environment';
+import { AddContentComponent } from './components/add-content/add-content.component';
+import { EditContentComponent } from './components/edit-content/edit-content.component';
+import { ContentListComponent } from './components/content-list/content-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+//Angular CRUD Services
+import { ContentService } from './shared/content.service';
+
+//Reactive form services in Angular
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddContentComponent,
+    EditContentComponent,
+    ContentListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AngularMaterialModule,
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+    HttpClientModule,
+    AgGridModule.withComponents([]),
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ContentService],
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

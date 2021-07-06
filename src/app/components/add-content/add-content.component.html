@@ -1,0 +1,136 @@
+<!-- Title group  -->
+ <div class="title-group">
+     <h1 class="mat-h1">Add Content</h1>
+     <mat-divider fxFlex="1 0"></mat-divider>
+ </div>
+
+ <!-- Book form -->
+ <div class="inner-wrapper">
+     <form [formGroup]="contentForm" (ngSubmit)="submitContent()" #resetContentForm="ngForm" novalidate>
+         <!-- Left block -->
+         <mat-card>
+             <div class="controlers-wrapper">
+                 <!-- Title -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="Title" formControlName="title">
+                     <mat-error *ngIf="handleError('title', 'required')">
+                         You must provide a <strong>title</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Product -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="Product" formControlName="product">
+                     <mat-error *ngIf="handleError('product', 'required')">
+                         You must provide a <strong>product</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Category -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="Category" formControlName="category">
+                     <mat-error *ngIf="handleError('category', 'required')">
+                         You must provide a <strong>category</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Owner -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="Owner" formControlName="owner">
+                     <mat-error *ngIf="handleError('owner', 'required')">
+                         You must provide an <strong>owner</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Status -->
+                 <mat-form-field>
+                     <mat-label>Status</mat-label>
+                     <mat-select [(value)]="selectedStatusType" formControlName="status">
+                         <mat-option [value]="statusType" *ngFor="let statusType of StatusType">{{statusType}}</mat-option>
+                     </mat-select>
+                     <mat-error *ngIf="handleError('status', 'required')">
+                         Status is required
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Format -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="Format" formControlName="format">
+                     <mat-error *ngIf="handleError('format', 'required')">
+                         You must provide a <strong>format</strong>
+                     </mat-error>
+                 </mat-form-field>
+                 
+             </div>
+         </mat-card>
+
+         <!-- Right block -->
+         <mat-card>
+             <div class="controlers-wrapper">
+                 <!-- Location -->
+                 <mat-form-field>
+                     <input matInput placeholder="Location" formControlName="location">
+                     <mat-error *ngIf="handleError('location', 'required')">
+                         You must provide a <strong>location</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- link -->
+                 <mat-form-field>
+                     <input matInput placeholder="Link" formControlName="link">
+                     <mat-error *ngIf="handleError('link', 'required')">
+                         You must provide a <strong>link</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Date Created -->
+                 <mat-form-field>
+                     <input matInput readonly [matDatepicker]="picker1" placeholder="Date Created" formControlName="date_created" (dateChange)="dateCreated($event)">
+                     <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                     <mat-datepicker #picker1></mat-datepicker>
+                     <mat-error *ngIf="handleError('date_created', 'required')">
+                         Created Date is required
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Date Modified -->
+                 <mat-form-field>
+                     <input matInput readonly [matDatepicker]="picker2" placeholder="Date Modified" formControlName="date_modified" (dateChange)="dateModified($event)">
+                     <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                     <mat-datepicker #picker2></mat-datepicker>
+                     <mat-error *ngIf="handleError('date_modified', 'required')">
+                         Modified Date is required
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Priority -->
+                 <mat-form-field>
+                     <input matInput placeholder="Priority" formControlName="priority">
+                     <mat-error *ngIf="handleError('priority', 'required')">
+                         You must provide a <strong>priority</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Next Audit Date -->
+                 <mat-form-field>
+                     <input matInput readonly [matDatepicker]="picker3" placeholder="Next Audit Date" formControlName="next_audit_date" (dateChange)="nextAuditDate($event)">
+                     <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+                     <mat-datepicker #picker3></mat-datepicker>
+                     <mat-error *ngIf="handleError('next_audit_date', 'required')">
+                         Next Audit Date is required
+                     </mat-error>
+                 </mat-form-field>
+             </div>
+         </mat-card>
+
+         <!-- Submit & Reset -->
+         <mat-card>
+             <div class="full-wrapper button-wrapper">
+                 <div class="button-wrapper">
+                     <button mat-flat-button color="warn">Submit</button>
+                     <button mat-flat-button color="war" (click)="resetForm()">Clear</button>
+                 </div>
+             </div>
+         </mat-card>
+     </form>
+ </div>
