@@ -39,11 +39,6 @@
             "production": {
                 "baseHref": "stratified",
                 "deployUrl": "http://eighty1designs.com/",
-                "fileReplacements": [
-        {
-          "replace": "src/environments/environment.ts",
-          "with": "src/environments/environment.prod.ts"
-        }
       ],
               "budgets": [
                 {
