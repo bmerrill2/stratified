@@ -16,18 +16,18 @@ dataSource: MatTableDataSource<Content>;
 @ViewChild(MatPaginator) paginator: MatPaginator;
 ContentData: any = [];
 displayedColumns: any[] = [
-    {field: 'title', sortable: true },
-    {field: 'product'},
-    {field: 'category'},
-    {field: 'owner'},
-    {field: 'status'},
-    {field: 'format'},
-    {field: 'location'},
-    {field: 'link'},
-    { headerName: 'Date Created', field: 'date_created', sortable: true},
-    {field: 'date_modified', sortable: true},
-    {field: 'priority'},
-    {field: 'next_audit_date', sortable: true}
+    {field: 'title', sortable: true, filter: true },
+    {field: 'product', sortable: true, filter: true},
+    {field: 'category', sortable: true, filter: true},
+    {field: 'owner', sortable: true, filter: true},
+    {field: 'status', sortable: true, filter: true},
+    {field: 'format', sortable: true, filter: true},
+    {field: 'location', sortable: true, filter: true},
+    {field: 'link', sortable: true, filter: true},
+    { headerName: 'Date Created', field: 'date_created', sortable: true, filter: 'agDateColumnFilter'},
+    {field: 'date_modified', sortable: true, filter: 'agDateColumnFilter'},
+    {field: 'priority', sortable: true, filter: true},
+    {field: 'next_audit_date', sortable: true, filter: 'agDateColumnFilter'}
 ];
 
 constructor(private contentApi: ContentService) {

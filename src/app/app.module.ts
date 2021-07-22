@@ -21,13 +21,17 @@ import { ContentService } from './shared/content.service';
 
 //Reactive form services in Angular
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ContentDetailsComponent } from './components/content-details/content-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddContentComponent,
     EditContentComponent,
-    ContentListComponent
+    ContentListComponent,
+    DashboardComponent,
+    ContentDetailsComponent
   ],
   imports: [
     BrowserModule,
