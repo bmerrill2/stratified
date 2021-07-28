@@ -1,1 +1,112 @@
 <p>dashboard works!</p>
+
+<mat-grid-list cols="12" rowHeight="1:2">
+    <mat-grid-tile colspan="3">
+        <mat-card class="standard-card">
+            <mat-card-header>
+                <mat-card-title>Total</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div>
+                    <div class="total-content">
+                        98%
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="9">
+        <mat-card class="standard-card">
+            <mat-card-header>
+                <mat-card-title>Year Graph</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image class="mat-img" src="https://canvasjs.com/wp-content/uploads/images/gallery/javascript-charts/line/javascript-line-charts-graphs.png" alt="Graph">
+        </mat-card>
+    </mat-grid-tile>
+    <div class="spacer"></div>
+    <mat-grid-tile colspan="2" rowspan="1">
+        <mat-card class="product-card">
+            <mat-card-header class="header-card">
+                <mat-card-title>Products</mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="flex">
+                <div class="scrollable">
+                    <table mat-table [dataSource]="dataSource">
+                        <ng-container matColumnDef="product">
+                            <td mat-cell *matCellDef="let element"> {{element.product}} </td>
+                        </ng-container>
+                        <ng-container matColumnDef="percentage">
+                            <td mat-cell *matCellDef="let element"> {{element.percentage}} </td>
+                        </ng-container>
+                        
+                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                    </table>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2" rowspan="2">
+        <mat-card class="product-card">
+            <mat-card-header class="header-card">
+                <mat-card-title>Topics</mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="flex">
+                <div class="scrollable">
+                    <table mat-table [dataSource]="dataSource">
+                        <ng-container matColumnDef="product">
+                            <td mat-cell *matCellDef="let element"> {{element.product}} </td>
+                        </ng-container>
+                        <ng-container matColumnDef="percentage">
+                            <td mat-cell *matCellDef="let element"> {{element.percentage}} </td>
+                        </ng-container>
+                        
+                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                    </table>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2" rowspan="2">
+        <mat-card class="product-card">
+            <mat-card-header class="header-card">
+                <mat-card-title>Products</mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="flex">
+                <div class="scrollable">
+                    <table mat-table [dataSource]="dataSource">
+                        <ng-container matColumnDef="product">
+                            <td mat-cell *matCellDef="let element"> {{element.product}} </td>
+                        </ng-container>
+                        <ng-container matColumnDef="percentage">
+                            <td mat-cell *matCellDef="let element"> {{element.percentage}} </td>
+                        </ng-container>
+                        
+                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                    </table>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2" rowspan="2">
+        <mat-card class="product-card">
+            <mat-card-header class="header-card">
+                <mat-card-title>Products</mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="flex">
+                <div class="scrollable">
+                    <table mat-table [dataSource]="dataSource">
+                        <ng-container matColumnDef="product">
+                            <td mat-cell *matCellDef="let element"> {{element.product}} </td>
+                        </ng-container>
+                        <ng-container matColumnDef="percentage">
+                            <td mat-cell *matCellDef="let element"> {{element.percentage}} </td>
+                        </ng-container>
+                        
+                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                    </table>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+
+</mat-grid-list>
