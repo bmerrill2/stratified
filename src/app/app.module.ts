@@ -23,6 +23,10 @@ import { ContentService } from './shared/content.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ContentDetailsComponent } from './components/content-details/content-details.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+import { AuditsDueComponent } from './components/audits-due/audits-due.component';
+import { TasksListComponent } from './components/tasks-list/tasks-list.component';
+import { StatusesComponent } from './components/statuses/statuses.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { ContentDetailsComponent } from './components/content-details/content-de
     EditContentComponent,
     ContentListComponent,
     DashboardComponent,
-    ContentDetailsComponent
+    ContentDetailsComponent,
+    TasksComponent,
+    AuditsDueComponent,
+    TasksListComponent,
+    StatusesComponent
   ],
   imports: [
     BrowserModule,
