@@ -10,6 +10,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { AuditsDueComponent } from './components/audits-due/audits-due.component';
 import { TasksListComponent } from './components/tasks-list/tasks-list.component';
 import { StatusesComponent } from './components/statuses/statuses.component';
+import { AddNoteComponent } from './components/add-note/add-note.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'content-list' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'content-list', component: ContentListComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'content-details/:id', component: ContentDetailsComponent },
+  {path: 'add-note', component: AddNoteComponent },    
   { path: 'tasks', component: TasksComponent,
     children: [
         {

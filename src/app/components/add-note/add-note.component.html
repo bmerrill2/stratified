@@ -1,0 +1,82 @@
+<!-- Title group  -->
+ <div class="title-group">
+     <h1 class="mat-h1">Add Note</h1>
+     <mat-divider fxFlex="1 0"></mat-divider>
+ </div>
+
+ <!-- Note form -->
+ <div class="inner-wrapper">
+     <form [formGroup]="noteForm" (ngSubmit)="submitNote()" #resetContentForm="ngForm" novalidate>
+         <!-- Left block -->
+         <mat-card>
+             <div class="controlers-wrapper">
+                 <!-- Title -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="NOTES" formControlName="note_title">
+                     <mat-error *ngIf="handleError('note_title', 'required')">
+                         You must provide a <strong>title</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Note Content -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="CONTENT" formControlName="note_content">
+                     <mat-error *ngIf="handleError('note_content', 'required')">
+                         You must provide <strong>content</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- UserId -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="User ID" formControlName="userID">
+                     <mat-error *ngIf="handleError('userID', 'required')">
+                         You must provide a <strong>User ID</strong>
+                     </mat-error>
+                 </mat-form-field>
+                 
+             </div>
+        
+             <div class="controlers-wrapper">
+
+                 <!-- Date Created -->
+                 <mat-form-field>
+                     <input matInput readonly [matDatepicker]="picker1" placeholder="Date Created" formControlName="created_date" (dateChange)="createdDate($event)">
+                     <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                     <mat-datepicker #picker1></mat-datepicker>
+                     <mat-error *ngIf="handleError('created_date', 'required')">
+                         Created Date is required
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Date Modified -->
+                 <mat-form-field>
+                     <input matInput readonly [matDatepicker]="picker2" placeholder="Date Updated" formControlName="updated_date" (dateChange)="modifiedDate($event)">
+                     <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                     <mat-datepicker #picker2></mat-datepicker>
+                     <mat-error *ngIf="handleError('updated_date', 'required')">
+                         Updated Date is required
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Priority -->
+                 <mat-form-field>
+                     <input matInput placeholder="Description" formControlName="description">
+                     <mat-error *ngIf="handleError('description', 'required')">
+                         You must provide a <strong>description</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+             </div>
+         </mat-card>
+
+         <!-- Submit & Reset -->
+         <mat-card>
+             <div class="full-wrapper button-wrapper">
+                 <div class="button-wrapper">
+                     <button mat-flat-button color="warn">Submit</button>
+                     <button mat-flat-button color="war" (click)="resetForm()">Clear</button>
+                 </div>
+             </div>
+         </mat-card>
+     </form>
+ </div>

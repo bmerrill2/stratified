@@ -18,6 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Angular CRUD Services
 import { ContentService } from './shared/content.service';
+import { NoteService } from './shared/note.service';
+import { TaskService } from './shared/task.service';
 
 //Reactive form services in Angular
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -27,6 +29,13 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { AuditsDueComponent } from './components/audits-due/audits-due.component';
 import { TasksListComponent } from './components/tasks-list/tasks-list.component';
 import { StatusesComponent } from './components/statuses/statuses.component';
+import { UsersComponent } from './components/users/users.component';
+import { NotesComponent } from './components/notes/notes.component';
+import { NotesListComponent } from './components/notes-list/notes-list.component';
+import { AddNoteComponent } from './components/add-note/add-note.component';
+import { EditNoteComponent } from './components/edit-note/edit-note.component';
+import { AddTaskComponent } from './components/add-task/add-task.component';
+import { EditTaskComponent } from './components/edit-task/edit-task.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +48,14 @@ import { StatusesComponent } from './components/statuses/statuses.component';
     TasksComponent,
     AuditsDueComponent,
     TasksListComponent,
-    StatusesComponent
+    StatusesComponent,
+    UsersComponent,
+    NotesComponent,
+    NotesListComponent,
+    AddNoteComponent,
+    EditNoteComponent,
+    AddTaskComponent,
+    EditTaskComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +69,9 @@ import { StatusesComponent } from './components/statuses/statuses.component';
     ReactiveFormsModule,
     BrowserAnimationsModule
   ],
-  providers: [ContentService],
+  providers: [ContentService,
+             NoteService,
+             TaskService],   
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

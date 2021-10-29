@@ -12,4 +12,6 @@ export interface Content {
     date_modified: Date;
     priority: string;
     next_audit_date: Date;
+    tasksID: string;
+    notesID: string;
 }
