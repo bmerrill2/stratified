@@ -55,7 +55,7 @@ import { EditTaskComponent } from './components/edit-task/edit-task.component';
     AddNoteComponent,
     EditNoteComponent,
     AddTaskComponent,
-    EditTaskComponent
+    EditTaskComponent,
   ],
   imports: [
     BrowserModule,
@@ -67,7 +67,7 @@ import { EditTaskComponent } from './components/edit-task/edit-task.component';
     AgGridModule.withComponents([]),
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [ContentService,
              NoteService,

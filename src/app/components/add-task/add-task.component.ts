@@ -13,7 +13,7 @@ name: string;
   styleUrls: ['./add-task.component.css']
 })
 
-export class AddTaskomponent implements OnInit {
+export class AddTaskComponent implements OnInit {
     visible = true;
     selectable = true;
     removable = true;

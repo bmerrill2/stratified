@@ -70,7 +70,7 @@ import { MatTreeModule } from '@angular/material/tree';
         MatTabsModule,
         MatToolbarModule,
         MatTooltipModule,
-        MatTreeModule
+        MatTreeModule,
     ],
     exports: [
         MatBadgeModule,
@@ -105,7 +105,7 @@ import { MatTreeModule } from '@angular/material/tree';
         MatTabsModule,
         MatToolbarModule,
         MatTooltipModule,
-        MatTreeModule
+        MatTreeModule,
     ],
    providers: [
       MatDatepickerModule,
