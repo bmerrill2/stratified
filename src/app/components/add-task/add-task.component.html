@@ -1,1 +1,90 @@
-<p>add-task works!</p>
+<!-- Title group  -->
+ <div class="title-group">
+     <h1 class="mat-h1">Add Task</h1>
+     <mat-divider fxFlex="1 0"></mat-divider>
+ </div>
+
+ <!-- Note form -->
+ <div class="inner-wrapper">
+     <form [formGroup]="taskForm" (ngSubmit)="submitTask()" #resetContentForm="ngForm" novalidate>
+         <!-- Left block -->
+         <mat-card>
+             <div class="controlers-wrapper">
+                 <!-- Task Name -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="Task Name" formControlName="task_name">
+                     <mat-error *ngIf="handleError('task_name', 'required')">
+                         You must provide a <strong>name</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Task Description -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="Description" formControlName="task_description">
+                     <mat-error *ngIf="handleError('task_description', 'required')">
+                         You must provide <strong>description</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- UserId -->
+                 <mat-form-field class="example-full-width">
+                     <input matInput placeholder="User ID" formControlName="userId">
+                     <mat-error *ngIf="handleError('userId', 'required')">
+                         You must provide a <strong>User ID</strong>
+                     </mat-error>
+                 </mat-form-field>
+                 
+             </div>
+        
+             <div class="controlers-wrapper">
+
+                 <!-- Date Created -->
+                 <mat-form-field>
+                     <input matInput readonly [matDatepicker]="picker1" placeholder="Date Created" formControlName="created_date" (dateChange)="createdDate($event)">
+                     <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                     <mat-datepicker #picker1></mat-datepicker>
+                     <mat-error *ngIf="handleError('created_date', 'required')">
+                         Created Date is required
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Date Due -->
+                 <mat-form-field>
+                     <input matInput readonly [matDatepicker]="picker2" placeholder="Due Date" formControlName="due_date" (dateChange)="modifiedDate($event)">
+                     <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                     <mat-datepicker #picker2></mat-datepicker>
+                     <mat-error *ngIf="handleError('due_date', 'required')">
+                         Due Date is required
+                     </mat-error>
+                 </mat-form-field>
+
+                 <!-- Stakeholder -->
+                 <mat-form-field>
+                     <input matInput placeholder="Stakeholders" formControlName="stakeholders">
+                     <mat-error *ngIf="handleError('stakeholders', 'required')">
+                         You must provide <strong>stakeholders</strong>
+                     </mat-error>
+                 </mat-form-field>
+                 
+                 <!-- Status -->
+                 <mat-form-field>
+                     <input matInput placeholder="Status" formControlName="status">
+                     <mat-error *ngIf="handleError('status', 'required')">
+                         You must provide a <strong>status</strong>
+                     </mat-error>
+                 </mat-form-field>
+
+             </div>
+         </mat-card>
+
+         <!-- Submit & Reset -->
+         <mat-card>
+             <div class="full-wrapper button-wrapper">
+                 <div class="button-wrapper">
+                     <button mat-flat-button color="warn">Submit</button>
+                     <button mat-flat-button color="war" (click)="resetForm()">Clear</button>
+                 </div>
+             </div>
+         </mat-card>
+     </form>
+ </div>
