@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Note } from './note';
-import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/database';
+import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/compat/database';
 
 
 @Injectable({
@@ -36,7 +36,7 @@ GetNotes(id: string) {
 /*Get Notes List */
 GetNotesList() {
     this.notesRef = this.db.list('notes-list');
-    return this. notesRef;
+    return this.notesRef;
 }
 
 /* Update Note */

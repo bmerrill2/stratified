@@ -4,7 +4,7 @@ export interface Task {
     task_name: string;
     userId: string;
     stakeholders: Array<string>;
-    created_date: Date;
+    task_created_date: Date;
     task_description: string;
     due_date: Date;
     status: string;

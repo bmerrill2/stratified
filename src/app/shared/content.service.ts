@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Content } from './content';
-import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/database';
+import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/compat/database';
 
 
 @Injectable({

@@ -12,7 +12,7 @@
              <div class="controlers-wrapper">
                  <!-- Task Name -->
                  <mat-form-field class="example-full-width">
-                     <input matInput placeholder="Task Name" formControlName="task_name">
+                     <input matInput placeholder="TASKS" formControlName="task_name">
                      <mat-error *ngIf="handleError('task_name', 'required')">
                          You must provide a <strong>name</strong>
                      </mat-error>
@@ -34,23 +34,21 @@
                      </mat-error>
                  </mat-form-field>
                  
-             </div>
-        
-             <div class="controlers-wrapper">
+
 
                  <!-- Date Created -->
                  <mat-form-field>
-                     <input matInput readonly [matDatepicker]="picker1" placeholder="Date Created" formControlName="created_date" (dateChange)="createdDate($event)">
+                     <input matInput readonly [matDatepicker]="picker1" placeholder="Date Created" formControlName="task_created_date" (dateChange)="taskCreatedDate($event)">
                      <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
                      <mat-datepicker #picker1></mat-datepicker>
-                     <mat-error *ngIf="handleError('created_date', 'required')">
+                     <mat-error *ngIf="handleError('task_created_date', 'required')">
                          Created Date is required
                      </mat-error>
                  </mat-form-field>
 
                  <!-- Date Due -->
                  <mat-form-field>
-                     <input matInput readonly [matDatepicker]="picker2" placeholder="Due Date" formControlName="due_date" (dateChange)="modifiedDate($event)">
+                     <input matInput readonly [matDatepicker]="picker2" placeholder="Due Date" formControlName="due_date" (dateChange)="dueDate($event)">
                      <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
                      <mat-datepicker #picker2></mat-datepicker>
                      <mat-error *ngIf="handleError('due_date', 'required')">

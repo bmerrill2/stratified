@@ -38,9 +38,9 @@ export class AddTaskComponent implements OnInit {
     this.taskForm = this.fb.group({
         task_name: ['', [Validators.required]],
         task_description: ['', [Validators.required]],
-        userID: ['', [Validators.required]],
-        created_date: ['', [Validators.required]],
-        updated_date: ['', [Validators.required]],
+        userId: ['', [Validators.required]],
+        task_created_date: ['', [Validators.required]],
+        due_date: ['', [Validators.required]],
         status: ['', [Validators.required]],
         stakeholders: ['', [Validators.required]]
     })
@@ -52,17 +52,17 @@ public handleError = (controlName: string, errorName: string) => {
 }
 
 /* Date Created */
-createdDate(e: any) {
+taskCreatedDate(e: any) {
     var convertDate = new Date(e.target.value).toISOString().substring(0,10);
-    this.taskForm.get('created_date')!.setValue(convertDate, {
+    this.taskForm.get('task_created_date')!.setValue(convertDate, {
         onlyself: true
         })
 }
 
 /* Date Modified */
-modifiedDate(e: any) {
+dueDate(e: any) {
     var convertDate = new Date(e.target.value).toISOString().substring(0,10);
-    this.taskForm.get('updated_date')!.setValue(convertDate, {
+    this.taskForm.get('due_date')!.setValue(convertDate, {
         onlyself: true
         })
 }

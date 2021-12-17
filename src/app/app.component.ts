@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
       this.sidenav.fixedTopGap = 55;
       this.opened = false;
     } else {
-      this.sidenav.fixedTopGap = 55;
+      this.sidenav.fixedTopGap = 30;
       this.opened = true;
     }
    }

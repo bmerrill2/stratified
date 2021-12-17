@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Task } from './task';
-import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/database';
+import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/compat/database';
 
 
 @Injectable({
@@ -18,7 +18,7 @@ AddTask(task: Task) {
         task_name: task.task_name,
         userId: task.userId,
         stakeholders: task.stakeholders,
-        created_date: task.created_date,
+        task_created_date: task.task_created_date,
         task_description: task.task_description,
         due_date: task.due_date,
         status: task.status
@@ -37,7 +37,7 @@ GetTasks(id: string) {
 /*Get Tasks List */
 GetTasksList() {
     this.tasksRef = this.db.list('tasks-list');
-    return this. tasksRef;
+    return this.tasksRef;
 }
 
 /* Update Tasks */
@@ -46,7 +46,7 @@ UpdateTask(id: string, task: Task) {
         task_name: task.task_name,
         userId: task.userId,
         stakeholders: task.stakeholders,
-        created_date: task.created_date,
+        task_created_date: task.task_created_date,
         task_description: task.task_description,
         due_date: task.due_date,
         status: task.status
