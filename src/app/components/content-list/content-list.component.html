@@ -1,27 +1,25 @@
 <!-- Title group  -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@ag-grid-community/core@27.2.1/dist/styles/ag-grid.css" />
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@ag-grid-community/core@27.2.1/dist/styles/ag-theme-alpine.css" />
+
 <section>
-<div class="example-flex-container">
-    <a mat-list-item routerLinkActive="active" routerLink="/add-content">
-        <mat-icon>add_circle</mat-icon>
-      </a>
-  <h3>Add Content</h3>
-</div>
-    </section>
+    <div class="example-flex-container">
+        <h1>Content</h1>
+    </div>
+</section>
 
 <!-- No data message -->
 <p *ngIf="ContentData.length <= 0" class="no-data">There is no data added yet!</p>
 
 <!-- Books list Angular material data table -->
 <div class="container" *ngIf="ContentData.length > 0">
-  <div class="mat-elevation-z8">
-    <ag-grid-angular
-    style="width: 100%; height: 600px;"
-    class="ag-theme-alpine"
-    [rowData]="ContentData"
-    [columnDefs]="displayedColumns"
-    pagination=true
-    paginationAutoPageSize=true
->
-</ag-grid-angular>
-  </div>
+    <div id="myGrid" class="ag-theme-alpine">
+        <ag-grid-angular style="width: 100%; height: 600px;" class="ag-theme-alpine" [rowSelection]="rowSelection" [rowData]="ContentData" [columnDefs]="displayedColumns" pagination=true paginationAutoPageSize=true>
+        </ag-grid-angular>
+    </div>
 </div>

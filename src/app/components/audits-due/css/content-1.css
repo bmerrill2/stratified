@@ -1,0 +1,1285 @@
+/* screen - content-1 */
+
+.content-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1080px;
+  width: 1920px;
+}
+
+.content-1 .levt-nav {
+  align-items: center;
+  background-image: url(../img/path-112@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 973px;
+  padding: 30px 8px;
+  position: fixed;
+  top: 107px;
+  width: 234px;
+  z-index: 2;
+}
+
+.content-1 .group-214 {
+  cursor: pointer;
+  display: flex;
+  margin-right: 3.0px;
+  transition: all 0.2s ease;
+  width: 183px;
+}
+
+.content-1 .group-214:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .group-211 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  height: 28px;
+  justify-content: space-between;
+}
+
+.content-1 .assessment-24px {
+  background-image: url(../img/path-106@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  opacity: 0.9;
+  width: 28px;
+}
+
+.content-1 .path-77 {
+  flex: 1;
+  margin-bottom: 3.0px;
+  margin-left: 3.0px;
+  margin-right: 3.0px;
+  margin-top: 3.0px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.content-1 .dashboard {
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: -2px;
+  opacity: 0.9;
+  width: 141px;
+}
+
+.content-1 .group-409 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 20px;
+  min-width: 217px;
+}
+
+.content-1 .overlap-group {
+  border-radius: 4px;
+  height: 49px;
+  position: relative;
+  width: 217px;
+}
+
+.content-1 .group-246 {
+  display: flex;
+  height: 28px;
+  justify-content: flex-end;
+  left: 17px;
+  opacity: 0.9;
+  position: absolute;
+  top: 11px;
+  width: 185px;
+}
+
+.content-1 .table_chart-24px {
+  align-self: flex-end;
+  background-image: url(../img/path-106@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 28px;
+  margin-right: 16px;
+  width: 28px;
+}
+
+.content-1 .path-75 {
+  flex: 1;
+  margin-bottom: 4.0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3.0px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.content-1 .place {
+  color: var(--scooter);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: -2px;
+  margin-top: -32.3px;
+  width: 141px;
+}
+
+.content-1 .rectangle-58 {
+  border: 1px solid var(--scooter);
+  border-radius: 4px;
+  height: 49px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 217px;
+}
+
+.content-1 .group-245 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  margin-right: 8.0px;
+  margin-top: 20px;
+  min-width: 182px;
+  opacity: 0.9;
+  transition: all 0.2s ease;
+}
+
+.content-1 .group-245:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .task-24px-2 {
+  align-items: flex-start;
+  background-image: url(../img/path-106@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 28px;
+  justify-content: flex-end;
+  min-width: 28px;
+  padding: 3.5px 5.4px;
+}
+
+.content-1 .group-185 {
+  background-image: url(../img/path-84@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  width: 17px;
+}
+
+.content-1 .tasks {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-bottom: 0.22px;
+  margin-left: 13px;
+  min-height: 26px;
+  width: 141px;
+}
+
+.content-1 .group-213 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6.0px;
+  margin-top: 694px;
+  opacity: 0.9;
+  transition: all 0.2s ease;
+  width: 180px;
+}
+
+.content-1 .group-213:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .account_circle-24px {
+  background-image: url(../img/path-106@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 28px;
+  margin-right: 11px;
+  width: 28px;
+}
+
+.content-1 .path-2 {
+  flex: 1;
+  margin-bottom: 3.0px;
+  margin-left: 3.0px;
+  margin-right: 3.0px;
+  margin-top: 3.0px;
+  object-fit: cover;
+  width: 21.98px;
+}
+
+.content-1 .profile {
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: -2px;
+  width: 141px;
+}
+
+.content-1 .group-212 {
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-right: 3.34px;
+  margin-top: 20px;
+  opacity: 0.9;
+  transition: all 0.2s ease;
+  width: 177px;
+}
+
+.content-1 .group-212:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .path-107 {
+  margin-bottom: 0.8px;
+  margin-left: 0;
+  margin-top: 0;
+  object-fit: cover;
+  width: 22.68px;
+}
+
+.content-1 .settings {
+  flex: 1;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 13.7px;
+  margin-right: -2px;
+  width: 141px;
+}
+
+.content-1 .component-7-1 {
+  align-items: center;
+  background-color: var(--cultured-pearl);
+  display: flex;
+  height: 107px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 31px 14px;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+
+.content-1 .stratified-logo-1-1 {
+  align-self: flex-end;
+  height: 44px;
+  object-fit: cover;
+  width: 161px;
+}
+
+.content-1 .group-407 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 0;
+  margin-left: 76px;
+  min-width: 151px;
+  transition: all 0.2s ease;
+}
+
+.content-1 .group-407:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .add_circle-24px-1 {
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 24px;
+  margin-top: 0.35px;
+  width: 24px;
+}
+
+.content-1 .path-67 {
+  flex: 1;
+  margin-bottom: 2.0px;
+  margin-left: 2px;
+  margin-right: 2.0px;
+  margin-top: 2.0px;
+  object-fit: cover;
+  width: 20px;
+}
+
+.content-1 .light-button1-texta-text {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 4px;
+  min-width: 123px;
+  opacity: 0.91;
+}
+
+.content-1 .overlap-group-1 {
+  height: 39px;
+  position: relative;
+  width: 123px;
+}
+
+.content-1 .container {
+  display: flex;
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 123px;
+}
+
+.content-1 .states {
+  background-color: var(--black);
+  border-radius: 4px;
+  flex: 1;
+  margin-bottom: 39.0px;
+  margin-right: 123.0px;
+  width: 1px;
+}
+
+.content-1 .label {
+  color: var(--black);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 1.25px;
+  line-height: 17px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.content-1 .group-404 {
+  align-items: center;
+  display: flex;
+  margin-left: 106px;
+  margin-top: 1.2px;
+  min-width: 335px;
+}
+
+.content-1 .filter_alt-24px-2 {
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 24px;
+  margin-top: 1.0px;
+  width: 24px;
+}
+
+.content-1 .path-47 {
+  flex: 1;
+  margin-bottom: 4.0px;
+  margin-left: 4.0px;
+  margin-right: 4.0px;
+  margin-top: 4.0px;
+  object-fit: cover;
+  width: 15.91px;
+}
+
+.content-1 .dropdown-closed {
+  display: flex;
+  height: 41px;
+  margin-left: 10px;
+  width: 176px;
+}
+
+.content-1 .group-151 {
+  align-items: flex-end;
+  background-image: url(../img/path-64@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  width: 175.8px;
+}
+
+.content-1 .light-lists-single-l {
+  display: flex;
+  height: 19px;
+  margin-bottom: -8.8px;
+  margin-left: 15px;
+  width: 35px;
+}
+
+.content-1 .subtitle-1 {
+  color: var(--black-3);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 21px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  white-space: nowrap;
+  width: 35px;
+}
+
+.content-1 .iconnavigationarrow_drop_down_24px {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  margin-bottom: -11.3px;
+  margin-right: 4.7px;
+  min-width: 24px;
+  padding: 9px 6.5px;
+}
+
+.content-1 .color {
+  height: 5px;
+  object-fit: cover;
+  width: 10px;
+}
+
+.content-1 .light-button1-texta-text-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 10px;
+  min-width: 115px;
+  transition: all 0.2s ease;
+}
+
+.content-1 .light-button1-texta-text-1:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .overlap-group-2 {
+  height: 39px;
+  position: relative;
+  width: 115px;
+}
+
+.content-1 .container-1 {
+  display: flex;
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 115px;
+}
+
+.content-1 .states-1 {
+  flex: 1;
+  margin-bottom: 39.0px;
+  margin-right: 115.0px;
+  width: 1px;
+}
+
+.content-1 .label-1 {
+  color: var(--black);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 1.25px;
+  line-height: 17px;
+  opacity: 0.91;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.content-1 .search_black_24dp {
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 992px;
+  margin-top: 0;
+  opacity: 0.75;
+  transition: all 0.2s ease;
+  width: 24px;
+}
+
+.content-1 .search_black_24dp:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .path-159 {
+  flex: 1;
+  margin-bottom: 3.5px;
+  margin-left: 3.0px;
+  margin-right: 3.5px;
+  margin-top: 3.0px;
+  object-fit: cover;
+  width: 17.49px;
+}
+
+.content-1 .sync-24px {
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 8px;
+  margin-top: 0;
+  opacity: 0.75;
+  transition: all 0.2s ease;
+  width: 24px;
+}
+
+.content-1 .sync-24px:hover {
+  transform: scale(1.1);
+}
+
+.content-1 .path-117 {
+  flex: 1;
+  margin-bottom: 1px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 16px;
+}
+
+.content-1 .path-106 {
+  height: 28px;
+  margin-left: 26px;
+  margin-top: 1023px;
+  object-fit: cover;
+  width: 28px;
+  z-index: 1;
+}
+
+.content-1 .group-425 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 234px;
+  min-height: 60px;
+  padding: 0.0px 28.0px;
+  position: fixed;
+  top: 107px;
+  width: 1686px;
+  z-index: 5;
+}
+
+.content-1 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  margin-left: 8.0px;
+  margin-top: 23px;
+  min-width: 1555px;
+}
+
+.content-1 .title {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 26px;
+  min-width: 40px;
+  white-space: nowrap;
+}
+
+.content-1 .product {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 310px;
+  min-height: 26px;
+  min-width: 69px;
+  white-space: nowrap;
+}
+
+.content-1 .topic {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 183px;
+  min-height: 26px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.content-1 .status {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 224px;
+  min-height: 26px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.content-1 .priority-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 128px;
+  min-height: 26px;
+  min-width: 66px;
+  white-space: nowrap;
+}
+
+.content-1 .last-updated {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 90px;
+  min-height: 26px;
+  min-width: 111px;
+  white-space: nowrap;
+}
+
+.content-1 .next-audit-date {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 99px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.content-1 .light-devider-2 {
+  align-self: flex-end;
+  background-color: var(--black-2);
+  height: 1px;
+  margin-top: 10px;
+  width: 1622px;
+}
+
+.content-1 .scroll-group-1::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.content-1 .scroll-group-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 902px;
+  left: 266px;
+  min-width: 1622px;
+  overflow-y: scroll;
+  position: fixed;
+  top: 167px;
+  z-index: 3;
+}
+
+.content-1 .repeat-grid-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 1875px;
+  margin-bottom: -999px;
+  min-width: 1622px;
+}
+
+.content-1 .component-container {
+  height: 1871px;
+  position: relative;
+  width: 1622px;
+}
+
+.content-1 .component-8-1 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-9-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 56px;
+}
+
+.content-1 .light-devider {
+  background-color: var(--black-2);
+  height: 1px;
+  width: 1622px;
+}
+
+.content-1 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  margin-left: 0;
+  margin-top: 18px;
+  min-width: 1515px;
+}
+
+.content-1 .title-of-article {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 26px;
+  min-width: 110px;
+  white-space: nowrap;
+}
+
+.content-1 .product-name {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 240px;
+  min-height: 26px;
+  min-width: 113px;
+  white-space: nowrap;
+}
+
+.content-1 .topic-name {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 138px;
+  min-height: 26px;
+  min-width: 93px;
+  white-space: nowrap;
+}
+
+.content-1 .status-field {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 178px;
+  min-height: 26px;
+  min-width: 89px;
+  white-space: nowrap;
+}
+
+.content-1 .priority {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 94px;
+  min-height: 26px;
+  min-width: 59px;
+  white-space: nowrap;
+}
+
+.content-1 .date {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 97px;
+  min-height: 26px;
+  min-width: 94px;
+  white-space: nowrap;
+}
+
+.content-1 .date-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 116px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.content-1 .light-devider-1 {
+  background-color: var(--black-2);
+  height: 1px;
+  margin-top: 10px;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-1 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 55px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-1:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-2 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 110px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-2:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-3 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 165px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-3:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-4 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 220px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-4:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-5 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 275px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-5:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-6 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 330px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-6:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-7 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 385px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-7:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-8 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 440px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-8:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-9 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 495px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-9:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-10 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 550px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-10:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-11 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 605px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-11:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-12 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 660px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-12:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-13 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 715px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-13:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-14 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 770px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-14:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-15 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 825px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-15:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-16 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 880px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-16:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-17 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 935px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-17:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-18 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 990px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-18:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-19 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1045px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-19:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-20 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1100px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-20:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-21 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1155px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-21:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-22 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1210px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-22:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-23 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1265px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-23:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-24 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1320px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-24:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-25 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1375px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-25:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-26 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1430px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-26:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-27 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1485px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-27:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-28 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1540px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-28:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-29 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1595px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-29:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-30 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1650px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-30:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-31 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1705px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-31:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-32 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1760px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-32:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}
+
+.content-1 .component-8-1-33 {
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 1815px;
+  transition: all 0.2s ease;
+  width: 1622px;
+}
+
+.content-1 .component-8-1-33:hover {
+  background-color: rgba(53, 192, 237, 0.2)
+}

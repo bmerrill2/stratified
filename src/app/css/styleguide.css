@@ -1,0 +1,47 @@
+:root { 
+  --accent: #0593ff;
+  --bg: #f7f9fa;
+  --body-light: #8697a8;
+  --green: #3dcc79;
+  --grey-100: #f5f8fa;
+  --grey-300: #eaedf0;
+  --heading: #303d4d;
+  --surface: #ffffff;
+ 
+  --font-size-m2: 15px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 28px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.h4 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.link-15pt {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m2);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.body--medium-15pt {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m2);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.roboto-normal-azure-radiance-24px {
+  color: var(--accent);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}

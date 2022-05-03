@@ -1,0 +1,584 @@
+/* screen - side-panel-2-tasks */
+
+.side-panel-2-tasks {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  padding: 107px 0;
+  width: 1920px;
+}
+
+#overlay-side-panel-2-tasks {
+  background-color: transparent;
+}
+
+.overlay .side-panel-2-tasks {
+  background-color: #00000000;
+}
+
+.side-panel-2-tasks .group-426 {
+  background-color: var(--cultured-pearl);
+  box-shadow: -4px 0px 6px #00000029;
+  height: 973px;
+  left: 1168px;
+  position: fixed;
+  top: 107px;
+  width: 752px;
+  z-index: 1;
+}
+
+.side-panel-2-tasks .title-of-article {
+  align-self: center;
+  letter-spacing: 1.96px;
+  line-height: 16px;
+  margin-left: 653.0px;
+  margin-top: 33px;
+  min-height: 32px;
+  min-width: 169px;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.side-panel-2-tasks .group-427 {
+  align-items: flex-start;
+  display: flex;
+  height: 42px;
+  margin-right: 376px;
+  margin-top: 25px;
+  min-width: 342px;
+  z-index: 4;
+}
+
+.side-panel-2-tasks .overlap-group1 {
+  align-self: flex-end;
+  height: 41px;
+  margin-bottom: 0.14px;
+  position: relative;
+  width: 84px;
+}
+
+.side-panel-2-tasks .container {
+  display: flex;
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.side-panel-2-tasks .states {
+  flex: 1;
+  margin-bottom: 41.0px;
+  margin-right: 84.0px;
+  width: 1px;
+}
+
+.side-panel-2-tasks .label-1 {
+  left: 8px;
+  letter-spacing: 1.42px;
+  line-height: 16px;
+  opacity: 0.86;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .overlap-group4 {
+  align-self: flex-end;
+  height: 43px;
+  margin-bottom: -1.0px;
+  margin-left: 27px;
+  position: relative;
+  width: 70px;
+}
+
+.side-panel-2-tasks .overlap-group2 {
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.side-panel-2-tasks .container-1 {
+  display: flex;
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.side-panel-2-tasks .states-1 {
+  flex: 1;
+  margin-bottom: 41.0px;
+  margin-right: 70.0px;
+  width: 1px;
+}
+
+.side-panel-2-tasks .label-2 {
+  color: var(--scooter);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  left: 8px;
+  letter-spacing: 1.42px;
+  line-height: 16px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .line-7 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 40px;
+  width: 70px;
+}
+
+.side-panel-2-tasks .overlap-group {
+  height: 41px;
+  margin-left: 27px;
+  margin-top: -0.14px;
+  position: relative;
+  width: 71px;
+}
+
+.side-panel-2-tasks .container-2 {
+  display: flex;
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 71px;
+}
+
+.side-panel-2-tasks .states-2 {
+  flex: 1;
+  margin-bottom: 41.0px;
+  margin-right: 71.0px;
+  width: 1px;
+}
+
+.side-panel-2-tasks .label {
+  left: 8px;
+  letter-spacing: 1.42px;
+  line-height: 16px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .overlap-group3 {
+  height: 41px;
+  margin-left: 14px;
+  margin-top: -0.14px;
+  position: relative;
+  width: 49px;
+}
+
+.side-panel-2-tasks .container-3 {
+  display: flex;
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 49px;
+}
+
+.side-panel-2-tasks .states-3 {
+  flex: 1;
+  margin-bottom: 41.0px;
+  margin-right: 49.0px;
+  width: 1px;
+}
+
+.side-panel-2-tasks .light-button1-texta-text {
+  align-items: flex-start;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  margin-left: 588.0px;
+  margin-top: 26px;
+  min-width: 104px;
+  z-index: 2;
+}
+
+.side-panel-2-tasks .overlap-group-1 {
+  height: 39px;
+  position: relative;
+  width: 104px;
+}
+
+.side-panel-2-tasks .container-4 {
+  display: flex;
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 104px;
+}
+
+.side-panel-2-tasks .states-4 {
+  flex: 1;
+  margin-bottom: 39.0px;
+  margin-right: 104.0px;
+  width: 1px;
+}
+
+.side-panel-2-tasks .label-3 {
+  color: var(--scooter);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 1.25px;
+  line-height: 17px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .group-428 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 36px;
+  margin-top: 26px;
+  min-height: 285px;
+  width: 670px;
+  z-index: 5;
+}
+
+.side-panel-2-tasks .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  margin-top: 3px;
+  min-width: 556px;
+}
+
+.side-panel-2-tasks .task {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 26px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .assigned-to {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 256px;
+  min-height: 26px;
+  min-width: 101px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .due-date {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 82px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 29px;
+  margin-left: 0.2px;
+  margin-top: 9px;
+  min-width: 570px;
+}
+
+.side-panel-2-tasks .check_box_outline_blank-24px-1 {
+  align-self: flex-start;
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 24px;
+  opacity: 0.75;
+  width: 24px;
+}
+
+.side-panel-2-tasks .path-14 {
+  flex: 1;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.side-panel-2-tasks .task-name-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 13px;
+  min-height: 26px;
+  min-width: 84px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .name-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 174px;
+  min-height: 26px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .date-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 127px;
+  min-height: 26px;
+  min-width: 94px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 29px;
+  margin-left: 0.2px;
+  margin-top: 26px;
+  min-width: 571px;
+}
+
+.side-panel-2-tasks .task-name {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 14px;
+  min-height: 26px;
+  min-width: 84px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .name {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 173px;
+  min-height: 26px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .date {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 128px;
+  min-height: 26px;
+  min-width: 94px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .flex-row-3 {
+  align-items: flex-end;
+  display: flex;
+  height: 30px;
+  margin-left: 0.2px;
+  margin-top: 26px;
+  min-width: 571px;
+}
+
+.side-panel-2-tasks .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 29px;
+  margin-left: 0.2px;
+  margin-top: 27px;
+  min-width: 571px;
+}
+
+.side-panel-2-tasks .check_box {
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 24px;
+  opacity: 0.75;
+  width: 24px;
+}
+
+.side-panel-2-tasks .overlap-group5 {
+  align-self: flex-end;
+  height: 26px;
+  margin-left: 6px;
+  position: relative;
+  width: 540px;
+}
+
+.side-panel-2-tasks .task-name-2 {
+  left: 7px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .name-2 {
+  left: 264px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .date-2 {
+  left: 446px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .line-12 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 538px;
+}
+
+.side-panel-2-tasks .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 29px;
+  margin-left: 0.2px;
+  margin-top: 27px;
+  min-width: 670px;
+}
+
+.side-panel-2-tasks .task-name-3 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 14px;
+  min-height: 26px;
+  min-width: 84px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .name-3 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 173px;
+  min-height: 26px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .date-3 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 128px;
+  min-height: 26px;
+  min-width: 94px;
+  white-space: nowrap;
+}
+
+.side-panel-2-tasks .create-24px {
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 24px;
+  margin-left: 45px;
+  opacity: 0.75;
+  width: 24px;
+}
+
+.side-panel-2-tasks .path-146 {
+  flex: 1;
+  margin-bottom: 3.0px;
+  margin-left: 3.0px;
+  margin-right: 3.0px;
+  margin-top: 3.0px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.side-panel-2-tasks .delete-24px {
+  background-image: url(../img/path-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 24px;
+  margin-left: 6px;
+  opacity: 0.75;
+  width: 24px;
+}
+
+.side-panel-2-tasks .path-148 {
+  flex: 1;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 3px;
+  object-fit: cover;
+  width: 14px;
+}
+
+.side-panel-2-tasks .light-devider {
+  background-color: var(--black-2);
+  height: 1px;
+  margin-right: 19px;
+  margin-top: 407px;
+  width: 723px;
+  z-index: 6;
+}
+
+.side-panel-2-tasks .light-button1-texta-text-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 19px;
+  margin-top: 9px;
+  min-width: 62px;
+  opacity: 0.6;
+  z-index: 7;
+}
+
+.side-panel-2-tasks .overlap-group6 {
+  height: 39px;
+  position: relative;
+  width: 62px;
+}
+
+.side-panel-2-tasks .container-5 {
+  display: flex;
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 62px;
+}
+
+.side-panel-2-tasks .states-5 {
+  flex: 1;
+  margin-bottom: 39.0px;
+  margin-right: 62.0px;
+  width: 1px;
+}
+
+.side-panel-2-tasks .label-4 {
+  left: 8px;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+}

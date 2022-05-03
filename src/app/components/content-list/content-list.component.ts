@@ -16,7 +16,7 @@ dataSource: MatTableDataSource<Content>;
 @ViewChild(MatPaginator) paginator: MatPaginator;
 ContentData: any = [];
 displayedColumns: any[] = [
-    {field: 'title', sortable: true, filter: true },
+    {field: 'title', sortable: true, filter: true, checkboxSelection: true },
     {field: 'product', sortable: true, filter: true},
     {field: 'category', sortable: true, filter: true},
     {field: 'owner', sortable: true, filter: true},
@@ -29,6 +29,7 @@ displayedColumns: any[] = [
     {field: 'priority', sortable: true, filter: true},
     {field: 'next_audit_date', sortable: true, filter: 'agDateColumnFilter'}
 ];
+    public rowSelection = 'multiple'
 
 constructor(private contentApi: ContentService) {
     this.contentApi.GetContentList().snapshotChanges().subscribe(contents => {

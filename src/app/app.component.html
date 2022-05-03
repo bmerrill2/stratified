@@ -1,38 +1,49 @@
 <!-- Toolbar -->
-<mat-toolbar color="primary" class="header">
-  <div>Content</div>
-  <span class="nav-tool-items">
-    <mat-icon (click)="sidenav.toggle()" class="hamburger">menu</mat-icon>
-  </span>
+<mat-toolbar class="header">
+    <span>
+        <img class="stratified-logo-1-1" src="https://anima-uploads.s3.amazonaws.com/projects/6251d4d07732a4ba29e52245/releases/6251d4f808c0395c4275ba41/img/stratified-logo-1--1-@1x.png" />
+    </span>
+    <span class="nav-tool-items">
+        <mat-icon (click)="sidenav.toggle()" class="hamburger">menu</mat-icon>
+    </span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button aria-label="Question mark outlined with circle">
+        <mat-icon>help_outline</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="Question mark outlined with circle">
+        <mat-icon>account_circle</mat-icon>
+    </button>
+    <div>
+        <div class="name body--medium-15pt">Dan Caudel</div>
+    </div>
+    <span class="example-spacer-2"></span>
 </mat-toolbar>
 
 <mat-sidenav-container>
-  <!-- Sidenav -->
-  <mat-sidenav #sidenav [mode]="isBiggerScreen() ? 'over' : 'side'" [(opened)]="opened" [fixedInViewport]="false"
-    [fixedTopGap]>
-    <mat-nav-list>
-      <a mat-list-item routerLinkActive="active" routerLink="/dashboard">
-        <mat-icon>assessment</mat-icon> Dashboard
-      </a>
-      <a mat-list-item routerLinkActive="active" routerLink="/content-list">
-        <mat-icon>auto_awesome_mosaic</mat-icon> Content
-      </a>
-       <a mat-list-item routerLinkActive="active" routerLink="/tasks">
-        <mat-icon>task</mat-icon> Tasks
-      </a>
-      <a mat-list-item routerLinkActive="active" routerLink="/add-note">
-        <mat-icon>task</mat-icon> Add Notes
-          </a>
-          <a mat-list-item routerLinkActive="active" routerLink="/add-task">
-        <mat-icon>task</mat-icon> Add Task
-          
-      </a>
-    </mat-nav-list>
-  </mat-sidenav>
+    <!-- Sidenav -->
+    <mat-sidenav #sidenav [mode]="isBiggerScreen() ? 'over' : 'side'" [(opened)]="opened" [fixedInViewport]="false" [fixedTopGap]>
+        <mat-nav-list>
+            <a mat-list-item routerLinkActive="active" routerLink="/dashboard">
+                <mat-icon>assessment</mat-icon> Dashboard
+            </a>
+            <a mat-list-item routerLinkActive="active" routerLink="/content-list">
+                <mat-icon>auto_awesome_mosaic</mat-icon> Content
+            </a>
+            <a mat-list-item routerLinkActive="active" routerLink="/tasks">
+                <mat-icon>task</mat-icon> Tasks
+            </a>
+            <a mat-list-item routerLinkActive="active" routerLink="/add-note">
+                <mat-icon>task</mat-icon> Add Notes
+            </a>
+            <a mat-list-item routerLinkActive="active" routerLink="/add-task">
+                <mat-icon>task</mat-icon> Add Task
 
-  <!-- Main content -->
-  <mat-sidenav-content>
-    <router-outlet></router-outlet>
-  </mat-sidenav-content>
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <!-- Main content -->
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
 </mat-sidenav-container>
-

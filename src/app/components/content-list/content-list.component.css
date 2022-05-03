@@ -1,5 +1,14 @@
 .example-flex-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 2px;
+    min-height: 36px;
+    min-width: 102px;
+}
+
+.rag-green {
+  background-color: lightgreen;
 }
